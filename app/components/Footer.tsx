@@ -24,15 +24,15 @@ export default function Footer() {
           <div className="flex flex-wrap flex-col sm:flex-row gap-4 justify-between w-full">
             <div>
               <p className="text-white font-bold">Segunda a Quinta</p>
-              <p className="text-white">11h às 23h</p>
+              <p className="text-white">08h às 22h</p>
             </div>
             <div>
               <p className="text-white font-bold">Sexta</p>
-              <p className="text-white">11h às 00h</p>
+              <p className="text-white">08h às 22hh</p>
             </div>
             <div>
               <p className="text-white font-bold">Sábado</p>
-              <p className="text-white">11h às 00h</p>
+              <p className="text-white">08h às 22h</p>
             </div>
           </div>
         </div>

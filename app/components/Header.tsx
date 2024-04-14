@@ -22,7 +22,9 @@ export default function Header() {
       <header
         className={`container mx-auto flex justify-between items-center sm:p-2 p-4 ${inter.className}`}
       >
-        <Image src={Logo} alt="Papaya Fresh" width={200} height={100} />
+        <Link href={"/"}>
+          <Image src={Logo} alt="Papaya Fresh" width={200} height={100} />
+        </Link>
 
         <button className="block sm:hidden">
           <FaBars className="text-3xl text-green-1500" />
@@ -36,7 +38,7 @@ export default function Header() {
               <Link href="#">INÍCIO</Link>
             </li>
             <li>
-              <Link href="#">SOBRE NÓS</Link>
+              <Link href="/about">SOBRE NÓS</Link>
             </li>
             <li>
               <Link href="#worktogether" className="text-green-1600">
